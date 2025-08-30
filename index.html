@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Your Table</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+  <!-- Particle background -->
+  <div id="particles-js"></div>
+
+  <!-- Main content -->
+  <div class="container">
+    <h1>Welcome to the Gala Dinner</h1>
+    <p>Please enter your first and last name to find your table.</p>
+
+    <div class="search-box">
+      <input type="text" id="nameInput" placeholder="First Last">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="results"></div>
+  </div>
+
+  <!-- Guest list and search script -->
+  <script src="guests.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
