@@ -1,9 +1,9 @@
 // Embedded guest list for simplicity
 const guests = [
-    { first: "Raj", middle: "K.", last: "Joshi", table: 5 },
-    { first: "Raj", middle: "A.", last: "Joshi", table: 8 },
-    { first: "Raj", middle: "", last: "Joshi", table: 12 },
-    { first: "Anita", middle: "", last: "Shah", table: 4 },
-    { first: "Neel", middle: "R.", last: "Patel", table: 9 }
+    { first: "Manan", middle: "D.", last: "Patel", table: 1 },
+    { first: "Tilak", middle: "D.", last: "Shah", table: 2 },
+    { first: "Tilak", middle: "A.", last: "Patel", table: 3 },
+    { first: "Manan", middle: "P.", last: "Patel", table: 4 },
+    { first: "Manan", middle: "R.", last: "Patel", table: 5 }
   ];
   
