@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
         opacity: { value: 0.6, random: true },
         size: { value: 2, random: true },
         line_linked: { enable: false },
-        move: { enable: true, speed: .5, direction: "right", straight: true}
+        move: { enable: true, speed: .4, direction: "right", straight: true}
       },
       interactivity: {
         detect_on: "canvas",
