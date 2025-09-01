@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const guest = matches[0];
         sameTable = guests.filter(g => g.table === guest.table);
         // Build a nice list of all guests at the same table
-        let friendsList = "<ul class='friends-list'>";
+        let friendsList = "<class='friends-list'>";
         sameTable.forEach(g => {
             // Show full name with middle initial if available
             friendsList += `${g.first} ${g.middle ? g.middle + " " : ""}${g.last}<br>`;
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="result-final">
             Welcome ${guest.first} ${guest.middle ? guest.middle + " " : ""}${guest.last}!<br>
             You are assigned to <strong>Table ${guest.table}</strong>.<br><br>
-            Here are the guests seated at your table:
+            Here are the guests seated at your table:<br>
             ${friendsList}
             </div>
         `;
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
           card.addEventListener("click", () => {
             sameTable = guests.filter(g => g.table === guest.table);
             // Build a nice list of all guests at the same table
-            let friendsList = "<ul class='friends-list'>";
+            let friendsList = "<class='friends-list'>";
             sameTable.forEach(g => {
                 // Show full name with middle initial if available
                 friendsList += `${g.first} ${g.middle ? g.middle + " " : ""}${g.last}<br>`;
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="result-final">
                 Welcome ${guest.first} ${guest.middle ? guest.middle + " " : ""}${guest.last}!<br>
                 You are assigned to <strong>Table ${guest.table}</strong>.<br><br>
-                Here are the guests seated at your table:
+                Here are the guests seated at your table:<br>
                 ${friendsList}
                 </div>
             `;
